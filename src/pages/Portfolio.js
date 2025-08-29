@@ -2,34 +2,39 @@ import React, { useState } from "react";
 import { Container, Button, Row, Col, Card } from "react-bootstrap";
 import "./Portfolio.css"; // Optional: untuk styling tambahan
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import pincela from "../images/logopincela.jpg";
 
 // Dummy data project
 const projectData = [
   {
-    title: "Hotel Booking Website",
+    title: "Pincela",
     type: "web",
-    desc: "Developed an interactive and responsive hotel booking website using React.js.",
-    stack: "Javascript, React. Js",
-    image: "/projects/hotel.png",
-    link: "#",
+    desc: "Website sederhana untuk project mata kuliah Pemrograman Web, mencakup fitur CRUD, routing, dan responsive UI.",
+    stack: "HTML, CSS, JavaScript, PHP",
+    image: pincela,
+    link: "https://mkhaeruzzamzami.github.io/pemweb-project/",
+    github: "https://github.com/mkhaeruzzamzami/pemweb-project",
   },
   {
     title: "Point Of Sales - IPOS",
     type: "web",
-    desc: "IPOS : Application System Online For Coffee Shop Using Laravel 7 and VueJS.",
-    stack: "Laravel, Vue. Js",
+    desc: "IPOS : Aplikasi sistem kasir online untuk Coffee Shop menggunakan Laravel 7 dan VueJS.",
+    stack: "Laravel, VueJS",
     image: "/projects/ipos.png",
     link: "#",
+    github: "#",
   },
   {
     title: "The Connecter",
     type: "mobile",
-    desc: "Developing a secure and easy-to-use DeFi crypto wallet web application, focused on decentralized digital asset management.",
-    stack: "Typescript, next Js",
+    desc: "Aplikasi crypto wallet berbasis web yang aman dan mudah digunakan untuk manajemen aset digital terdesentralisasi.",
+    stack: "TypeScript, Next.js",
     image: "/projects/crypto.png",
     link: "#",
+    github: "#",
   },
 ];
+
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
