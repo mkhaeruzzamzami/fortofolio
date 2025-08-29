@@ -1,0 +1,28 @@
+.about-page {
+  background-color: #111;
+  min-height: 100vh;
+}
+
+.about-page h2 {
+  color: #fff;
+}
+
+.tech-card {
+  background-color: #181818;
+  border: 1px solid #444;
+  transition: transform 0.2s ease;
+}
+
+.tech-card:hover {
+  transform: scale(1.05);
+  border-color: #ff69b4;
+}
+
+@media (max-width: 768px) {
+  .about-page p {
+    font-size: 0.95rem;
+  }
+  .tech-card {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,11 @@
+.blog-card {
+  border: 1px solid #333;
+  transition: transform 0.3s ease;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+.blog-card img {
+  height: 180px;
+  object-fit: cover;
+}

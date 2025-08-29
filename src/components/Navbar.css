@@ -1,0 +1,100 @@
+/* ========== Layout ========== */
+.custom-navbar {
+  z-index: 999;
+  width: 100%;
+}
+
+.desktop-top {
+  position: sticky;
+  top: 0;
+}
+
+.mobile-bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid #333;
+  padding: 8px 0;
+}
+
+/* ========== Transisi & Animasi ========== */
+.transition-navbar {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Hover underline animasi */
+.navbar-wrapper {
+  z-index: 9999;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+  background: #0dcaf0;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* Hover efek icon sosial */
+.hover-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hover-icon:hover {
+  transform: scale(1.1);
+  color: #0dcaf0 !important;
+}
+
+/* ========== Glassmorphism ========== */
+.glass-navbar {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* ========== Mobile Bottom Navbar ========== */
+.mobile-nav-glass {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.75rem 0;
+  transition: background-color 0.3s ease;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Mobile Link Animasi */
+.mobile-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  position: relative;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.mobile-link:hover {
+  transform: translateY(-4px);
+  color: #0dcaf0;
+}
+.navbar-transparent {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,11 @@
+.portfolio-page .btn {
+  min-width: 100px;
+}
+
+.portfolio-page .card-title {
+  font-size: 1.1rem;
+}
+
+.portfolio-page .card-text {
+  font-size: 0.9rem;
+}

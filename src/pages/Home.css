@@ -1,0 +1,80 @@
+/* Optional jika mau tetap punya background */
+.d-flex.align-items-center {
+  background: radial-gradient(ellipse at center, #0d0d0d00, #00000000);
+}
+
+
+.intro-text {
+  color: #5ec9f0;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.typed-text {
+  color: #ff69b4;
+  font-size: 1.3rem;
+  font-weight: 500;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.profile-glow {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  background: radial-gradient(circle at center, #5ec9f0 10%, transparent 70%);
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.profile-glow img {
+  max-width: 280px;
+  border: 4px solid #5ec9f0;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+.profile-glow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(94, 201, 240, 0.4);
+}
+
+.lead {
+  font-size: 1.1rem;
+  color: #ccc;
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Styling */
+@media (max-width: 991.98px) {
+  .home-section {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 30px;
+  }
+
+  .typed-text {
+    font-size: 1rem;
+  }
+
+  .profile-glow img {
+    max-width: 180px;
+  }
+
+  .intro-text {
+    font-size: 1rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
