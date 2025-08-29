@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fortofolio/static/css/main.133165ab.css",
-    "main.js": "/fortofolio/static/js/main.2c4deced.js",
-    "static/media/profil.jpg": "/fortofolio/static/media/profil.abf8076abf5b5f7bafee.jpg",
-    "static/media/logopincela.jpg": "/fortofolio/static/media/logopincela.0971978793b9c8033d2b.jpg",
-    "index.html": "/fortofolio/index.html",
-    "main.133165ab.css.map": "/fortofolio/static/css/main.133165ab.css.map",
-    "main.2c4deced.js.map": "/fortofolio/static/js/main.2c4deced.js.map"
+    "main.css": "/static/css/main.133165ab.css",
+    "main.js": "/static/js/main.60d513dc.js",
+    "static/media/profil.jpg": "/static/media/profil.abf8076abf5b5f7bafee.jpg",
+    "static/media/logopincela.jpg": "/static/media/logopincela.0971978793b9c8033d2b.jpg",
+    "index.html": "/index.html",
+    "main.133165ab.css.map": "/static/css/main.133165ab.css.map",
+    "main.60d513dc.js.map": "/static/js/main.60d513dc.js.map"
   },
   "entrypoints": [
     "static/css/main.133165ab.css",
-    "static/js/main.2c4deced.js"
+    "static/js/main.60d513dc.js"
   ]
 }
