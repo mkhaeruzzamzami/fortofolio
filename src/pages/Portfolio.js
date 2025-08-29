@@ -15,24 +15,24 @@ const projectData = [
     link: "https://mkhaeruzzamzami.github.io/pemweb-project/",
     github: "https://github.com/mkhaeruzzamzami/pemweb-project",
   },
-  {
-    title: "Point Of Sales - IPOS",
-    type: "web",
-    desc: "IPOS : Aplikasi sistem kasir online untuk Coffee Shop menggunakan Laravel 7 dan VueJS.",
-    stack: "Laravel, VueJS",
-    image: "/projects/ipos.png",
-    link: "#",
-    github: "#",
-  },
-  {
-    title: "The Connecter",
-    type: "mobile",
-    desc: "Aplikasi crypto wallet berbasis web yang aman dan mudah digunakan untuk manajemen aset digital terdesentralisasi.",
-    stack: "TypeScript, Next.js",
-    image: "/projects/crypto.png",
-    link: "#",
-    github: "#",
-  },
+  // {
+  //   title: "Point Of Sales - IPOS",
+  //   type: "web",
+  //   desc: "IPOS : Aplikasi sistem kasir online untuk Coffee Shop menggunakan Laravel 7 dan VueJS.",
+  //   stack: "Laravel, VueJS",
+  //   image: "/projects/ipos.png",
+  //   link: "#",
+  //   github: "#",
+  // },
+  // {
+  //   title: "The Connecter",
+  //   type: "mobile",
+  //   desc: "Aplikasi crypto wallet berbasis web yang aman dan mudah digunakan untuk manajemen aset digital terdesentralisasi.",
+  //   stack: "TypeScript, Next.js",
+  //   image: "/projects/crypto.png",
+  //   link: "#",
+  //   github: "#",
+  // },
 ];
 
 
