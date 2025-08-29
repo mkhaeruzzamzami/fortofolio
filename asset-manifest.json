@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/fortofolio/static/css/main.133165ab.css",
+    "main.js": "/fortofolio/static/js/main.ab8fac21.js",
+    "static/media/profil.jpg": "/fortofolio/static/media/profil.abf8076abf5b5f7bafee.jpg",
+    "static/media/logopincela.jpg": "/fortofolio/static/media/logopincela.0971978793b9c8033d2b.jpg",
+    "index.html": "/fortofolio/index.html",
+    "main.133165ab.css.map": "/fortofolio/static/css/main.133165ab.css.map",
+    "main.ab8fac21.js.map": "/fortofolio/static/js/main.ab8fac21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.133165ab.css",
+    "static/js/main.ab8fac21.js"
+  ]
+}
